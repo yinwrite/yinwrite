@@ -1,0 +1,41 @@
+/**
+  Color Palette;
+    #a08794 - english lavender
+    #0f0f0f - almost black
+    #bb7e8c - old rose
+
+  Fonts:
+    font-family: 'Inria Serif', serif; - elegant like newspaper
+    font-family: 'Courier Prime', monospace; - console like
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Inria+Serif&display=swap');
+
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inria Serif', serif;
+}
+
+p {
+  font-family: 'Courier Prime', monospace;
+}
+
+a {
+  text-decoration: none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  color: #bb7e8c;
+  font-family: 'Courier Prime', monospace;
+  padding: 1px;
+  margin-left: 12px;
+}
+
+a:hover {
+  border-bottom-color: white;
+}
