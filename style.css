@@ -14,7 +14,7 @@
 body {
   background-color: #0f0f0f;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: center;
 }
 
@@ -38,4 +38,46 @@ a {
 
 a:hover {
   border-bottom-color: white;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  width: 25px;
+  height: auto;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-left: solid 2px #a08794;
+  border-right: solid 2px #a08794;
+}
+
+.post {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.post-head {
+  display: flex;
+  max-width: 90%;
+  justify-content: space-between;
+}
+
+.post-body {
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  max-width: 90%;
 }
