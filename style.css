@@ -57,21 +57,25 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border-left: solid 2px #a08794;
-  border-right: solid 2px #a08794;
 }
 
 .post {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   flex-direction: column;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  border-left: solid 2px #a08794;
+  border-right: solid 2px #a08794;
+}
+
+.not-top-post {
+  margin-top: 5vh;
 }
 
 .post-head {
   display: flex;
-  max-width: 90%;
+  max-width: 100%;
   justify-content: space-between;
 }
 
@@ -79,5 +83,9 @@ img {
   text-align: left;
   flex-direction: column;
   display: flex;
-  max-width: 90%;
+  max-width: 100%;
+}
+
+.purple {
+  color: #a08794; /**that english lavender color**/
 }
